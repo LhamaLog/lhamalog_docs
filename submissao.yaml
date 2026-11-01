@@ -1,9 +1,8 @@
-# RASCUNHO: preencher o link de repositorio-1 antes de enviar na issue.
 equipe: LhamaLog
 turma: B
 artefatos:
   repositorio-1:
-    link: null
+    link: https://github.com/Vinicius-Ferrarini/lhamalog_docs
     descricao: |
       Documentação acadêmica do LhamaLog: especificações de casos de uso,
       modelo de classes, ADRs disponíveis e protótipo final exportado do Figma.
