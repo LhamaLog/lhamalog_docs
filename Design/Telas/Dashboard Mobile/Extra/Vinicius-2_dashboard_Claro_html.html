@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>LhamaLog — Visão Geral</title>
+<style>
+  :root{
+    /* ===== cores — edite aqui para ajustar a identidade ===== */
+    --bg:#f2f2f2;
+    --card:#ffffff;
+    --card-border:#e3e3e3;
+    --text-dark:#141826;
+    --text-muted:#5c6470;
+    --text-faint:#8b93a0;
+    --brand:#0c70f2;
+    --brand-dark:#033473;
+    --brand-darkest:#141826;
+    --brand-mid:#0d65d9;
+    --brand-light:#e8f2fe;
+
+    --danger:#e0453d;   --danger-bg:#fde9e7;
+    --warning:#e2932a;  --warning-bg:#fef3e2;
+    --info:#0c70f2;     --info-bg:#e8f2fe;
+    --success:#1f9d6f;  --success-bg:#e6f8f0;
+    --teal:#0d8f8f;     --teal-bg:#e3f5f5;
+
+    /* escala do heatmap, do menos (0) ao mais intenso (5) */
+    --hm-0:#f2f2f2; --hm-1:#cfe3fb; --hm-2:#8fbdf7; --hm-3:#3d94f5; --hm-4:#0c70f2; --hm-5:#033473;
+
+    --nav-bg:var(--brand-darkest);
+  }
+
+  /* ===== TEMA ESCURO — sobrescreve as variáveis acima quando .screen tem data-theme="dark" ===== */
+  .screen[data-theme="dark"]{
+    --bg:#14161c;
+    --card:#1e212b;
+    --card-border:rgba(59,147,247,0.18);
+    --text-dark:#eceef1;
+    --text-muted:#9ba3b0;
+    --text-faint:#6b7280;
+    --brand:#3b93f7;
+    --brand-dark:#1c3d66;
+    --brand-mid:#2f7fc4;
+    --brand-light:rgba(59,147,247,0.16);
+
+    --danger:#f0655d;  --danger-bg:#33201f;
+    --warning:#f0ac4d; --warning-bg:#332815;
+    --info:#3b93f7;    --info-bg:#182842;
+    --success:#34c290; --success-bg:#132d24;
+    --teal:#2bc4c4;    --teal-bg:#122e2e;
+
+    --hm-0:#1e212b; --hm-1:#1a3155; --hm-2:#1c4d85; --hm-3:#1f6fbe; --hm-4:#3b93f7; --hm-5:#8dc4ff;
+
+    --nav-bg:#262b38;
+  }
+  *{box-sizing:border-box; font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  body{margin:0; background:#dfe7ec; display:flex; justify-content:center; align-items:center; min-height:100vh; padding:30px;}
+
+  /* ===== container da "tela" (sem moldura de celular, só o conteúdo) ===== */
+  .screen{width:380px; height:800px; background:var(--bg); border-radius:28px; overflow:hidden; transition:background 0.25s ease; display:flex; flex-direction:column;}
+  .screen, .screen *{transition:background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;}
+  .content{padding:12px 14px 14px; color:var(--text-dark); flex:1; display:flex; flex-direction:column; overflow:hidden; min-height:0;}
+  .scroll-area{overflow:hidden; flex:1; min-height:0;}
+
+  /* header */
+  .topbar{flex-shrink:0; display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;}
+  .brand{display:flex; align-items:center; gap:10px;}
+  .brand .logo{width:30px; height:30px; border-radius:9px; background:var(--brand); display:flex; align-items:center; justify-content:center;}
+  .brand .names{line-height:1.2;}
+  .brand .names .n{font-size:15px; font-weight:700;}
+  .brand .names .t{font-size:10.5px; color:var(--text-muted);}
+  .top-actions{display:flex; align-items:center; gap:10px;}
+  .icon-btn{position:relative; width:34px; height:34px; border-radius:50%; background:var(--card); border:1px solid var(--card-border); display:flex; align-items:center; justify-content:center;}
+  .badge{position:absolute; top:-3px; right:-3px; min-width:16px; height:16px; border-radius:100px; background:var(--danger); color:#fff; font-size:9.5px; font-weight:700; display:flex; align-items:center; justify-content:center; border:2px solid var(--bg);}
+  .avatar{width:34px; height:34px; border-radius:50%; background:var(--brand); color:#fff; font-size:12px; font-weight:700; display:flex; align-items:center; justify-content:center;}
+
+  /* nav tabs (agora fixa embaixo) */
+  .navtabs{flex-shrink:0; display:flex; align-items:center; justify-content:space-around; background:var(--nav-bg); border-radius:16px; padding:7px 6px; margin:10px 0 0;}
+  .navtab{display:flex; flex-direction:column; align-items:center; gap:3px; font-size:10px; font-weight:600; color:#7c8494; padding:2px 6px;}
+  .navtab.active{color:#fff; background:var(--brand); border-radius:100px; padding:6px 12px;}
+  .navtab.active svg{stroke:#fff !important;}
+
+  /* card shell */
+  .card{background:var(--card); border:1px solid var(--card-border); border-radius:16px; padding:12px; margin-bottom:10px;}
+  .card-head{display:flex; align-items:center; justify-content:between; margin-bottom:4px;}
+  .card-head .title{display:flex; align-items:center; gap:6px; font-size:14px; font-weight:700;}
+  .card-head .title svg{color:var(--brand);}
+  .dropdown{margin-left:auto; font-size:11.5px; color:var(--brand); font-weight:600; background:var(--brand-light); border:1px solid transparent; border-radius:100px; padding:5px 10px; display:flex; align-items:center; gap:4px;}
+  .card-sub{display:none;}
+
+  /* metric grid */
+  .metrics{display:flex; flex-wrap:wrap; gap:10px;}
+  .metric{flex:1 1 calc(50% - 5px); border-radius:12px; padding:9px 10px;}
+  .metric .row1{display:flex; align-items:center; gap:6px; margin-bottom:4px;}
+  .metric .ic{width:26px; height:26px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+  .metric .lbl{font-size:12px; font-weight:600;}
+  .metric .val{font-size:19px; font-weight:700; margin-bottom:1px;}
+  .metric .trend{display:flex; align-items:center; justify-content:space-between; font-size:11px; font-weight:600;}
+  .metric .trend svg{flex-shrink:0;}
+  .m-danger{background:var(--danger-bg);} .m-danger .ic{background:var(--danger);} .m-danger .lbl,.m-danger .val,.m-danger .trend{color:var(--danger);}
+  .m-warning{background:var(--warning-bg);} .m-warning .ic{background:var(--warning);} .m-warning .lbl,.m-warning .val,.m-warning .trend{color:var(--warning);}
+  .m-info{background:var(--info-bg);} .m-info .ic{background:var(--info);} .m-info .lbl,.m-info .val,.m-info .trend{color:var(--info);}
+  .m-success{background:var(--success-bg);} .m-success .ic{background:var(--success);} .m-success .lbl,.m-success .val,.m-success .trend{color:var(--success);}
+
+  /* heatmap */
+  .heatmap{display:flex; gap:8px; margin:12px 0 10px;}
+  .hm-labels{display:flex; flex-direction:column; justify-content:space-between; font-size:10.5px; color:var(--text-muted); padding:2px 0;}
+  .hm-labels span{height:16px; display:flex; align-items:center;}
+  .hm-grid{flex:1; display:flex; flex-wrap:wrap; gap:4px; align-content:flex-start;}
+  .hm-cell{border-radius:3px; height:12px; flex:1 1 calc(14.28% - 3.5px);}
+  .hm-dates{display:flex; justify-content:space-between; font-size:9.5px; color:var(--text-faint); margin-top:6px; padding-left:34px;}
+  .hm-legend{display:flex; align-items:center; justify-content:center; gap:6px; font-size:10px; color:var(--text-faint); margin-top:6px;}
+  .hm-legend .sw{width:10px; height:10px; border-radius:3px;}
+
+  /* ranking */
+  .rank-row{display:flex; align-items:center; gap:10px; margin-bottom:7px;}
+  .rank-row:last-child{margin-bottom:0;}
+  .rank-num{width:16px; font-size:12px; font-weight:700; color:var(--text-faint);}
+  .rank-name{width:92px; font-size:12.5px; font-weight:600; flex-shrink:0;}
+  .rank-bar-bg{flex:1; height:7px; border-radius:100px; background:var(--bg); overflow:hidden;}
+  .rank-bar{height:100%; border-radius:100px;}
+  .rank-count{width:32px; text-align:right; font-size:12px; font-weight:700; color:var(--text-muted);}
+
+  /* stat pair */
+  .statpair{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:14px;}
+  .statcard{flex:1 1 calc(50% - 5px); background:var(--card); border:1px solid var(--card-border); border-radius:12px; padding:9px 10px;}
+  .statcard .ic{width:24px; height:24px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:4px;}
+  .statcard .lbl{font-size:11px; color:var(--text-muted); margin-bottom:2px;}
+  .statcard .val{font-size:16px; font-weight:700;}
+  .statcard .val .up{font-size:11px; font-weight:700; color:var(--success); margin-left:4px;}
+  .statcard .val .down{font-size:11px; font-weight:700; color:var(--danger); margin-left:4px;}
+  .statcard .vs{font-size:10px; color:var(--text-faint); margin-top:2px;}
+  .stat-teal .ic{background:var(--teal-bg); color:var(--teal);}
+  .stat-info .ic{background:var(--info-bg); color:var(--info);}
+  .stat-green .ic{background:var(--success-bg); color:var(--success);}
+  .stat-full{flex-basis:100%;}
+
+  .dots-label{text-align:center; font-size:11.5px; font-weight:600; color:var(--text-dark); margin-bottom:6px;}
+  .dots{display:flex; justify-content:center; gap:5px; margin-bottom:10px;}
+  .dots span{width:6px; height:6px; border-radius:50%; background:var(--card-border);}
+  .dots span.active{background:var(--brand); width:16px; border-radius:100px;}
+
+  .footer-item{display:flex; align-items:center; gap:12px; background:var(--card); border:1px solid var(--card-border); border-left:3px solid var(--brand); border-radius:4px 14px 14px 4px; padding:10px 12px;}
+  .footer-item .fic{width:34px; height:34px; border-radius:11px; background:var(--brand-light); color:var(--brand); display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+  .footer-item .txt{flex:1; font-size:12px; line-height:1.5;}
+  .footer-item .txt .d1{color:var(--text-dark); font-weight:700; font-size:12.5px;}
+  .footer-item .txt .d2{color:var(--text-muted);}
+  .footer-item .txt .d3{color:var(--brand); font-weight:600;}
+
+  .bezel{background:#0a0a0c; border-radius:46px; padding:14px; display:inline-block; position:relative;}
+  .notch{position:absolute; top:28px; left:50%; transform:translateX(-50%); width:96px; height:26px; background:#0a0a0c; border-radius:15px; z-index:50;}
+</style>
+</head>
+<body>
+<div class="bezel"><div class="screen" id="screen"><div class="content">
+
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4"><path d="M4 18V8a4 4 0 018 0v10"/><path d="M16 18V6a4 4 0 018 0"/></svg></div>
+      <div class="names"><div class="n">LhamaLog</div><div class="t">Observe. Preveja. Evolua.</div></div>
+    </div>
+    <div class="top-actions">
+      <button id="themeBtn" class="icon-btn" onclick="toggleTheme()" aria-label="Alternar tema" style="border:1px solid var(--card-border); cursor:pointer;">
+        <svg id="themeIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0b2a3d" stroke-width="2"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+      </button>
+      <div class="icon-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0b2a3d" stroke-width="2"><path d="M6 8a6 6 0 0112 0c0 5 2 6 2 6H4s2-1 2-6z"/><path d="M10 20a2 2 0 004 0"/></svg>
+        <span class="badge">2</span>
+      </div>
+      <div class="avatar">JS</div>
+    </div>
+  </div>
+
+  <div class="scroll-area">
+  <div class="card">
+    <div class="card-head">
+      <div class="title"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="3"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>Ocorrências</div>
+      <div class="dropdown">Últimos 7 dias <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg></div>
+    </div>
+    <p class="card-sub">Acompanhe em tempo real os eventos, erros e alertas dos seus projetos.</p>
+
+    <div class="metrics">
+      <div class="metric m-danger">
+        <div class="row1"><div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6"><line x1="12" y1="8" x2="12" y2="13"/><circle cx="12" cy="16.5" r="1" fill="#fff"/></svg></div><span class="lbl">Erros</span></div>
+        <div class="val">48</div>
+        <div class="trend"><span>↑ 12%</span><svg width="46" height="18" viewBox="0 0 46 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,14 9,15 17,9 25,11 33,4 45,2"/></svg></div>
+      </div>
+      <div class="metric m-warning">
+        <div class="row1"><div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6"><line x1="12" y1="8" x2="12" y2="13"/><circle cx="12" cy="16.5" r="1" fill="#fff"/></svg></div><span class="lbl">Alertas</span></div>
+        <div class="val">73</div>
+        <div class="trend"><span>↑ 5%</span><svg width="46" height="18" viewBox="0 0 46 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,10 9,13 17,8 25,12 33,6 45,5"/></svg></div>
+      </div>
+      <div class="metric m-info">
+        <div class="row1"><div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6"><line x1="12" y1="11" x2="12" y2="16"/><circle cx="12" cy="8" r="1" fill="#fff"/></svg></div><span class="lbl">Informações</span></div>
+        <div class="val">284</div>
+        <div class="trend"><span>↑ 8%</span><svg width="46" height="18" viewBox="0 0 46 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,12 9,9 17,13 25,7 33,10 45,3"/></svg></div>
+      </div>
+      <div class="metric m-success">
+        <div class="row1"><div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.8"><polyline points="4 12 9 17 20 6"/></svg></div><span class="lbl">Resolvidas</span></div>
+        <div class="val">312</div>
+        <div class="trend"><span>↑ 22%</span><svg width="46" height="18" viewBox="0 0 46 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,15 9,13 17,14 25,8 33,9 45,2"/></svg></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-head">
+      <div class="title"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="20" x2="5" y2="12"/><line x1="12" y1="20" x2="12" y2="6"/><line x1="19" y1="20" x2="19" y2="14"/></svg>Ocorrências por dia</div>
+      <div class="dropdown">7 dias <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg></div>
+    </div>
+    <div class="heatmap">
+      <div class="hm-labels"><span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span></div>
+      <!-- cada linha abaixo = 1 dia da semana (Dom a Sáb), 7 colunas = as 7 datas do período.
+           troque a cor de fundo de cada célula (var(--hm-0) a var(--hm-5)) pelo dado real -->
+      <div class="hm-grid" id="hm">
+        <div class="hm-cell" style="background:var(--hm-0);"></div><div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-4);"></div><div class="hm-cell" style="background:var(--hm-3);"></div><div class="hm-cell" style="background:var(--hm-5);"></div><div class="hm-cell" style="background:var(--hm-2);"></div>
+        <div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-3);"></div><div class="hm-cell" style="background:var(--hm-5);"></div><div class="hm-cell" style="background:var(--hm-4);"></div><div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-1);"></div>
+        <div class="hm-cell" style="background:var(--hm-0);"></div><div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-3);"></div><div class="hm-cell" style="background:var(--hm-4);"></div><div class="hm-cell" style="background:var(--hm-3);"></div><div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-0);"></div>
+        <div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-0);"></div><div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-3);"></div><div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-0);"></div>
+        <div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-3);"></div><div class="hm-cell" style="background:var(--hm-5);"></div><div class="hm-cell" style="background:var(--hm-3);"></div><div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-0);"></div>
+        <div class="hm-cell" style="background:var(--hm-0);"></div><div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-3);"></div><div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-0);"></div><div class="hm-cell" style="background:var(--hm-0);"></div>
+        <div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-0);"></div><div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-2);"></div><div class="hm-cell" style="background:var(--hm-1);"></div><div class="hm-cell" style="background:var(--hm-0);"></div><div class="hm-cell" style="background:var(--hm-0);"></div>
+      </div>
+    </div>
+    <div class="hm-dates"><span>6 mai.</span><span>8 mai.</span><span>10 mai.</span><span>12 mai.</span></div>
+    <div class="hm-legend">Menos <span class="sw" style="background:#d7e9f5;"></span><span class="sw" style="background:#a9d1ea;"></span><span class="sw" style="background:#6bade0;"></span><span class="sw" style="background:#2f7fc4;"></span><span class="sw" style="background:#0d5296;"></span> Mais</div>
+  </div>
+
+  <div class="card">
+    <div class="card-head">
+      <div class="title"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1.3" fill="currentColor" stroke="none"/><circle cx="4" cy="12" r="1.3" fill="currentColor" stroke="none"/><circle cx="4" cy="18" r="1.3" fill="currentColor" stroke="none"/></svg>Serviços mais impactados</div>
+      <div class="dropdown">7 dias <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg></div>
+    </div>
+    <div style="margin-top:12px;">
+      <div class="rank-row"><span class="rank-num">1</span><span class="rank-name">api-gateway</span><div class="rank-bar-bg"><div class="rank-bar" style="width:100%; background:var(--danger);"></div></div><span class="rank-count">128</span></div>
+      <div class="rank-row"><span class="rank-num">2</span><span class="rank-name">payment-service</span><div class="rank-bar-bg"><div class="rank-bar" style="width:73%; background:var(--warning);"></div></div><span class="rank-count">93</span></div>
+      <div class="rank-row"><span class="rank-num">3</span><span class="rank-name">auth-service</span><div class="rank-bar-bg"><div class="rank-bar" style="width:52%; background:var(--info);"></div></div><span class="rank-count">67</span></div>
+      <div class="rank-row"><span class="rank-num">4</span><span class="rank-name">notification</span><div class="rank-bar-bg"><div class="rank-bar" style="width:41%; background:#5b9fd6;"></div></div><span class="rank-count">52</span></div>
+      <div class="rank-row"><span class="rank-num">5</span><span class="rank-name">storage</span><div class="rank-bar-bg"><div class="rank-bar" style="width:30%; background:#9cc3e3;"></div></div><span class="rank-count">38</span></div>
+    </div>
+  </div>
+
+  <div class="statpair">
+    <div class="statcard stat-teal">
+      <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z"/></svg></div>
+      <div class="lbl">Latência p95</div>
+      <div class="val">340 ms<span class="down">↓ 8%</span></div>
+      <div class="vs">vs. período anterior</div>
+    </div>
+    <div class="statcard stat-info">
+      <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="13" r="8"/><polyline points="12 9 12 13 15 15"/><line x1="9" y1="2" x2="15" y2="2"/></svg></div>
+      <div class="lbl">Tempo médio de resolução</div>
+      <div class="val">28 min<span class="up">↑ 32%</span></div>
+      <div class="vs">vs. período anterior</div>
+    </div>
+    <div class="statcard stat-green stat-full">
+      <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg></div>
+      <div class="lbl">Taxa de resolução</div>
+      <div class="val">86%<span class="up">↑ 12%</span></div>
+      <div class="vs">vs. período anterior</div>
+    </div>
+  </div>
+
+  <div class="dots-label">Visão Geral</div>
+  <div class="dots"><span class="active"></span><span></span><span></span><span></span><span></span></div>
+
+  <div class="footer-item">
+    <div class="fic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg></div>
+    <div class="txt"><span class="d1">Relatório completo</span><br><span class="d2">Período: últimos 7 dias</span><br><span class="d3">Ver relatório ou exportar</span></div>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5c6470" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg>
+  </div>
+  </div>
+
+  <div class="navtabs">
+    <div class="navtab active"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 11l9-7 9 7"/><path d="M5 10v9h14v-9"/></svg>Início</div>
+    <div class="navtab"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V7z"/></svg>Ocorrências</div>
+    <div class="navtab"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4l9 16H3z"/><line x1="12" y1="10" x2="12" y2="14"/></svg>Alertas</div>
+    <div class="navtab"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="20" x2="5" y2="12"/><line x1="12" y1="20" x2="12" y2="6"/><line x1="19" y1="20" x2="19" y2="14"/></svg>Métricas</div>
+    <div class="navtab"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.9l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.9-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 01-4 0v-.1a1.7 1.7 0 00-1-1.6 1.7 1.7 0 00-1.9.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.9 1.7 1.7 0 00-1.5-1H3a2 2 0 010-4h.1a1.7 1.7 0 001.5-1 1.7 1.7 0 00-.3-1.9l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.9.3H9a1.7 1.7 0 001-1.5V3a2 2 0 014 0v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.9-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.9V9a1.7 1.7 0 001.5 1h.1a2 2 0 010 4h-.1a1.7 1.7 0 00-1.5 1z"/></svg>Mais</div>
+  </div>
+
+</div></div></div>
+
+<script>
+  const moonPath = '<path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/>';
+  const sunPath = '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>';
+  function toggleTheme(){
+    const screen = document.getElementById('screen');
+    const icon = document.getElementById('themeIcon');
+    const isDark = screen.getAttribute('data-theme') === 'dark';
+    screen.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    icon.innerHTML = isDark ? moonPath : sunPath;
+    icon.setAttribute('stroke', isDark ? '#0b2a3d' : '#eceef1');
+  }
+</script>
+</body>
+</html>

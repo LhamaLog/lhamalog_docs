@@ -1,0 +1,36 @@
+# RASCUNHO: preencher o link de repositorio-1 antes de enviar na issue.
+equipe: LhamaLog
+turma: B
+artefatos:
+  repositorio-1:
+    link: null
+    descricao: |
+      Documentação acadêmica do LhamaLog: especificações de casos de uso,
+      modelo de classes, ADRs disponíveis e protótipo final exportado do Figma.
+      Inclui índice em Markdown, inventário, arquitetura, tecnologias,
+      instruções de execução e processo de desenvolvimento observado.
+      Os relatórios distinguem implementação, pull requests abertas e planejamento.
+  repositorio-2:
+    link: https://github.com/LhamaLog/lhamalog-collector
+    descricao: |
+      Backend de coleta em Java e Spring Boot. A branch main contém a base
+      do serviço; a implementação de ingestão OTLP HTTP/gRPC com destino
+      OpenObserve foi consultada na PR 2, ainda aberta em 01/11/2026,
+      branch feature/LLT-181-otlp-receiver, commit a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9.
+  repositorio-3:
+    link: https://github.com/LhamaLog/lhamalog-finder
+    descricao: |
+      Serviço Finder em Go. A branch master contém a estrutura inicial
+      e health check. O consumo de Redis Streams foi consultado na PR 1,
+      ainda aberta e com conflitos em 01/11/2026, branch LLT-132-Consumo-da-fila,
+      commit 117f9ddf9822b57e8538b602be1334153af7c012.
+      Não representa implementação completa da análise por IA.
+  repositorio-4:
+    link: https://github.com/LhamaLog/lhamalog-web
+    descricao: |
+      Frontend em React, TypeScript, Vite e Tailwind CSS, com componentes
+      de ocorrências, produtos e empresa usando dados locais de demonstração.
+      Implementação consultada na PR 1, ainda aberta em 01/11/2026,
+      branch task/LLT-236-estrutura-de-pastas,
+      commit 519909ad401da9c450ea85c6e88ec7979b246ffc.
+      A branch main contém somente README; não há integração comprovada com o backend.

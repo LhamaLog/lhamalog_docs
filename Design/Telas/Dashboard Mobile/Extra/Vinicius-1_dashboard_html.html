@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>LhamaLog — Mobile</title>
+<style>
+  :root{
+    --text-dark:#0b2a3d; --text-muted:#4a6b7a; --text-faint:#7d97a3;
+    --glass:rgba(255,255,255,0.42); --glass-strong:rgba(255,255,255,0.86);
+    --glass-border:rgba(255,255,255,0.65);
+    --danger:#c23b34; --danger-bg:rgba(226,80,70,0.16);
+    --warning:#b06a12; --warning-bg:rgba(230,155,40,0.18);
+    --info:#0d5c96; --info-bg:rgba(70,150,210,0.16);
+    --success:#166b52; --success-bg:rgba(50,170,130,0.18);
+  }
+  *{box-sizing:border-box; font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  body{margin:0; background:#e7ecef; display:flex; justify-content:center; padding:40px 16px;}
+  .bezel{width:390px; background:#111; border-radius:44px; padding:14px; box-shadow:0 20px 60px rgba(0,0,0,0.25);}
+  .screen{
+    width:100%; height:800px; border-radius:32px; overflow-y:auto; position:relative;
+    background:
+      radial-gradient(circle at 78% 10%, rgba(255,255,255,0.9) 0%, rgba(255,244,214,0.5) 8%, rgba(255,244,214,0) 16%),
+      linear-gradient(180deg, #cdeaf7 0%, #a9dcef 22%, #6ec4dc 42%, #2f9bbd 62%, #146f92 80%, #0b4f6c 100%);
+  }
+  .cloud{position:absolute; background:rgba(255,255,255,0.55); border-radius:50%; filter:blur(1px);}
+  .content{position:relative; padding:20px 16px 100px; color:var(--text-dark);}
+  .topbar{display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;}
+  .brand{display:flex; align-items:center; gap:8px; font-weight:600; font-size:15px;}
+  .brand .logo{width:26px; height:26px; border-radius:8px; background:rgba(255,255,255,0.9); display:flex; align-items:center; justify-content:center; font-size:14px;}
+  .icon-btn{position:relative; width:34px; height:34px; border-radius:50%; background:var(--glass); border:1px solid var(--glass-border); display:flex; align-items:center; justify-content:center; backdrop-filter:blur(8px);}
+  .dot{position:absolute; top:6px; right:6px; width:7px; height:7px; border-radius:50%; background:var(--danger); border:1.5px solid #fff;}
+  .status{display:flex; align-items:center; gap:6px; font-size:12px; color:rgba(11,42,61,0.75); margin-bottom:12px;}
+  .status .led{width:6px; height:6px; border-radius:50%; background:#1f9d6f;}
+  h1{font-size:22px; margin:0 0 14px; font-weight:700;}
+  .search{display:flex; gap:8px; margin-bottom:10px;}
+  .search input{flex:1; height:38px; border-radius:12px; border:1px solid var(--glass-border); background:var(--glass); backdrop-filter:blur(10px); padding:0 12px; font-size:13px; color:var(--text-dark);}
+  .search input::placeholder{color:var(--text-muted);}
+  .filter-btn{width:38px; height:38px; border-radius:12px; border:1px solid var(--glass-border); background:var(--glass-strong); backdrop-filter:blur(10px); display:flex; align-items:center; justify-content:center;}
+  .chips{display:flex; gap:6px; overflow-x:auto; margin-bottom:14px; padding-bottom:2px; scrollbar-width:none;}
+  .chips::-webkit-scrollbar{display:none;}
+  .chip{font-size:11px; padding:6px 12px; border-radius:100px; white-space:nowrap; border:1px solid var(--glass-border); background:var(--glass); color:var(--text-dark); backdrop-filter:blur(8px);}
+  .chip.active{background:var(--glass-strong); font-weight:600;}
+  .metrics{display:flex; flex-wrap:wrap; gap:9px; margin-bottom:12px;}
+  .metric{flex:1 1 calc(50% - 5px); border-radius:16px; padding:12px 14px; background:var(--glass-strong); border:1px solid var(--glass-border); backdrop-filter:blur(14px);}
+  .metric .label{font-size:11.5px; display:flex; align-items:center; gap:5px; margin-bottom:4px;}
+  .metric .val{font-size:24px; font-weight:700;}
+  .m-danger .label,.m-danger .val{color:var(--danger);}
+  .m-warning .label,.m-warning .val{color:var(--warning);}
+  .m-info .label,.m-info .val{color:var(--info);}
+  .m-success .label,.m-success .val{color:var(--success);}
+  .live-banner{display:flex; align-items:center; justify-content:space-between; background:var(--glass-strong); border:1px solid var(--glass-border); border-radius:12px; padding:9px 13px; margin-bottom:14px; backdrop-filter:blur(14px); font-size:12px;}
+  .live-banner .l{display:flex; align-items:center; gap:6px; color:var(--info); font-weight:600;}
+  .live-banner .r{color:var(--info); font-weight:700;}
+  .list{display:flex; flex-direction:column; gap:9px;}
+  .card{background:var(--glass-strong); border:1px solid var(--glass-border); border-radius:14px; padding:11px 13px 11px 12px; backdrop-filter:blur(14px); border-left-width:4px; border-left-style:solid;}
+  .card.c-danger{border-left-color:var(--danger);}
+  .card.c-warning{border-left-color:var(--warning);}
+  .card.c-info{border-left-color:var(--info);}
+  .card-top{display:flex; align-items:center; gap:6px; margin-bottom:5px;}
+  .card-top .tag{font-size:12px; font-weight:700;}
+  .c-danger .tag{color:var(--danger);}
+  .c-warning .tag{color:var(--warning);}
+  .c-info .tag{color:var(--info);}
+  .card-top .time{margin-left:auto; font-size:11px; color:var(--text-faint);}
+  .card p{font-size:13px; margin:0 0 7px; color:var(--text-dark); line-height:1.4;}
+  .card .svc{font-size:10.5px; padding:2px 9px; border-radius:100px; background:rgba(11,42,61,0.06); color:var(--text-muted); border:1px solid rgba(11,42,61,0.08);}
+  .navbar{position:sticky; bottom:0; display:flex; justify-content:space-around; padding:12px 8px 16px; margin:16px -16px -100px; background:var(--glass-strong); backdrop-filter:blur(20px); border-top:1px solid var(--glass-border);}
+  .navitem{display:flex; flex-direction:column; align-items:center; gap:3px; font-size:10px; color:var(--text-muted);}
+  .navitem.active{color:var(--info); font-weight:700;}
+  svg{display:block;}
+</style>
+</head>
+<body>
+<div class="bezel">
+  <div class="screen">
+    <div class="cloud" style="width:140px;height:34px;top:60px;left:-20px;"></div>
+    <div class="cloud" style="width:100px;height:26px;top:95px;left:70px;"></div>
+    <div class="content">
+
+      <div class="topbar">
+        <div class="brand"><span class="logo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0d5c96" stroke-width="2.5"><path d="M4 18V8a4 4 0 018 0v10"/><path d="M16 18V6a4 4 0 018 0"/></svg></span>LhamaLog</div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div class="icon-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0b2a3d" stroke-width="2"><path d="M6 8a6 6 0 0112 0c0 5 2 6 2 6H4s2-1 2-6z"/><path d="M10 20a2 2 0 004 0"/></svg>
+            <span class="dot"></span>
+          </div>
+          <div class="icon-btn" style="background:var(--glass-strong);">JS</div>
+        </div>
+      </div>
+
+      <div class="status"><span class="led"></span>Sistema operacional</div>
+
+      <h1>Ocorrências</h1>
+
+      <div class="search">
+        <input type="text" placeholder="Buscar ocorrências...">
+        <button class="filter-btn" aria-label="Filtros">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0b2a3d" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><circle cx="9" cy="6" r="2" fill="#0b2a3d"/><line x1="4" y1="12" x2="20" y2="12"/><circle cx="15" cy="12" r="2" fill="#0b2a3d"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="7" cy="18" r="2" fill="#0b2a3d"/></svg>
+        </button>
+      </div>
+
+      <div class="chips">
+        <span class="chip active">Últimos 7 dias</span>
+        <span class="chip">Todos os níveis</span>
+        <span class="chip">Todos os projetos</span>
+        <span class="chip">Status</span>
+      </div>
+
+      <div class="metrics">
+        <div class="metric m-danger"><div class="label">Erros ↑12%</div><div class="val">48</div></div>
+        <div class="metric m-warning"><div class="label">Alertas ↑5%</div><div class="val">73</div></div>
+        <div class="metric m-info"><div class="label">Informações ↑8%</div><div class="val">284</div></div>
+        <div class="metric m-success"><div class="label">Resolvidas ↑22%</div><div class="val">312</div></div>
+      </div>
+
+      <div class="live-banner">
+        <span class="l">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#0d5c96" stroke-width="2.4"><path d="M21 12a9 9 0 11-3-6.7"/><path d="M21 4v5h-5"/></svg>
+          12 novos eventos
+        </span>
+        <span class="r">Atualizar</span>
+      </div>
+
+      <div class="list">
+
+        <div class="card c-danger">
+          <div class="card-top">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c23b34" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="13"/><circle cx="12" cy="16.5" r="0.8" fill="#c23b34"/></svg>
+            <span class="tag">Erro</span><span class="time">14:12</span>
+          </div>
+          <p>Falha na autenticação de token. Token inválido para o usuário 8342.</p>
+          <span class="svc">api-gateway</span>
+        </div>
+
+        <div class="card c-warning">
+          <div class="card-top">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#b06a12" stroke-width="2"><path d="M12 4l9 16H3z"/><line x1="12" y1="10" x2="12" y2="14"/><circle cx="12" cy="16.8" r="0.8" fill="#b06a12"/></svg>
+            <span class="tag">Alerta</span><span class="time">14:09</span>
+          </div>
+          <p>Latência acima do esperado. Tempo médio de resposta acima de 2s.</p>
+          <span class="svc">payment-service</span>
+        </div>
+
+        <div class="card c-info">
+          <div class="card-top">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0d5c96" stroke-width="2"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16"/><circle cx="12" cy="8" r="0.8" fill="#0d5c96"/></svg>
+            <span class="tag">Info</span><span class="time">09:25</span>
+          </div>
+          <p>Deploy concluído com sucesso. Versão v1.4.3 implantada em produção.</p>
+          <span class="svc">auth-service</span>
+        </div>
+
+      </div>
+
+      <div class="navbar">
+        <div class="navitem">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7"/><path d="M5 10v9h14v-9"/></svg>
+          Início
+        </div>
+        <div class="navitem active">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="14" y2="17"/></svg>
+          Ocorrências
+        </div>
+        <div class="navitem">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8a6 6 0 0112 0c0 5 2 6 2 6H4s2-1 2-6z"/><path d="M10 20a2 2 0 004 0"/></svg>
+          Alertas
+        </div>
+        <div class="navitem">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="5" cy="12" r="1.5" fill="currentColor"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/><circle cx="19" cy="12" r="1.5" fill="currentColor"/></svg>
+          Mais
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

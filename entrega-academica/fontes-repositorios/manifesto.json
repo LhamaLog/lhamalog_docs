@@ -1,0 +1,218 @@
+[
+  {
+    "repositorio": "lhamalog-collector",
+    "branch": "main",
+    "commit": "f5f50b691ac0f33c5291a3b779f31e100d525000",
+    "arquivo": "README.md",
+    "copia": "collector-main/README.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-collector/blob/f5f50b691ac0f33c5291a3b779f31e100d525000/README.md",
+    "sha256": "1fe7e33e19afd8786f16977344abfac3bbd97fa26aa5f5fc884c02e9309e3383"
+  },
+  {
+    "repositorio": "lhamalog-collector",
+    "branch": "main",
+    "commit": "f5f50b691ac0f33c5291a3b779f31e100d525000",
+    "arquivo": "pom.xml",
+    "copia": "collector-main/pom.xml.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-collector/blob/f5f50b691ac0f33c5291a3b779f31e100d525000/pom.xml",
+    "sha256": "8c12c965638269a8b0664f37824b40b1717d54a1fea29f7273f6e49057cc6d9c"
+  },
+  {
+    "repositorio": "lhamalog-collector",
+    "branch": "main",
+    "commit": "f5f50b691ac0f33c5291a3b779f31e100d525000",
+    "arquivo": "infra/local/compose.yaml",
+    "copia": "collector-main/infra/local/compose.yaml.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-collector/blob/f5f50b691ac0f33c5291a3b779f31e100d525000/infra/local/compose.yaml",
+    "sha256": "ab6000eef407eb807a9db599aa59e8cdb24aeba53033ad2998344c500eeffb3b"
+  },
+  {
+    "repositorio": "lhamalog-collector",
+    "branch": "feature/LLT-181-otlp-receiver",
+    "commit": "a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9",
+    "arquivo": "README.md",
+    "copia": "collector-pr2/README.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-collector/blob/a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9/README.md",
+    "sha256": "24744f9047d0ad3ee69eda95ffa6f300d05b81306b6ad606ca7c6bfc433624dc"
+  },
+  {
+    "repositorio": "lhamalog-collector",
+    "branch": "feature/LLT-181-otlp-receiver",
+    "commit": "a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9",
+    "arquivo": "pom.xml",
+    "copia": "collector-pr2/pom.xml.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-collector/blob/a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9/pom.xml",
+    "sha256": "c8e046770ccc6004a5bf620e040c9378a6ab07beb023fc038766c25852d4614c"
+  },
+  {
+    "repositorio": "lhamalog-collector",
+    "branch": "feature/LLT-181-otlp-receiver",
+    "commit": "a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9",
+    "arquivo": ".specify/memory/constitution.md",
+    "copia": "collector-pr2/.specify/memory/constitution.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-collector/blob/a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9/.specify/memory/constitution.md",
+    "sha256": "80b629c5efd10f852c48994c1628daaad37236841abef1d2601028c9e2f1d0f5"
+  },
+  {
+    "repositorio": "lhamalog-collector",
+    "branch": "feature/LLT-181-otlp-receiver",
+    "commit": "a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9",
+    "arquivo": "specs/001-otlp-receiver/quickstart.md",
+    "copia": "collector-pr2/specs/001-otlp-receiver/quickstart.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-collector/blob/a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9/specs/001-otlp-receiver/quickstart.md",
+    "sha256": "f4700a67601655acb712a5bf4ec94b98e737d7491c088d0d01858bc7d9bfbb10"
+  },
+  {
+    "repositorio": "lhamalog-collector",
+    "branch": "feature/LLT-181-otlp-receiver",
+    "commit": "a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9",
+    "arquivo": "specs/001-otlp-receiver/spec.md",
+    "copia": "collector-pr2/specs/001-otlp-receiver/spec.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-collector/blob/a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9/specs/001-otlp-receiver/spec.md",
+    "sha256": "bf34a81fa08617dbb0e7f205a21f8cc67c5fa97c236b73b5e722e85aec206632"
+  },
+  {
+    "repositorio": "lhamalog-collector",
+    "branch": "feature/LLT-181-otlp-receiver",
+    "commit": "a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9",
+    "arquivo": "infra/local/compose.yaml",
+    "copia": "collector-pr2/infra/local/compose.yaml.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-collector/blob/a9b0a6efbcea1497b7f701c1330c7355ed1e2ad9/infra/local/compose.yaml",
+    "sha256": "5192d5d72cc59449c322f3cd80af3be2ee692a1cc9c532ab2ccb663a00db24b3"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "master",
+    "commit": "1767acabc8da7f57c0bae653e5ba22dd7cad4f2d",
+    "arquivo": "README.md",
+    "copia": "finder-master/README.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/1767acabc8da7f57c0bae653e5ba22dd7cad4f2d/README.md",
+    "sha256": "55d874f453457a91a5f051d5c82a09779608a815b071ff02fdf5709501f187bb"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "master",
+    "commit": "1767acabc8da7f57c0bae653e5ba22dd7cad4f2d",
+    "arquivo": "go.mod",
+    "copia": "finder-master/go.mod.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/1767acabc8da7f57c0bae653e5ba22dd7cad4f2d/go.mod",
+    "sha256": "c0dbfd96a630d10d4cc32050e965d298af529dc34f2ed96df245693a84cbe50d"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "master",
+    "commit": "1767acabc8da7f57c0bae653e5ba22dd7cad4f2d",
+    "arquivo": "cmd/finder/main.go",
+    "copia": "finder-master/cmd/finder/main.go.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/1767acabc8da7f57c0bae653e5ba22dd7cad4f2d/cmd/finder/main.go",
+    "sha256": "fa6a80c6ed0acc8d63d1b3e469f13cba7e5ca334e0315d941079fc06c6c64ef0"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "LLT-132-Consumo-da-fila",
+    "commit": "117f9ddf9822b57e8538b602be1334153af7c012",
+    "arquivo": "README.md",
+    "copia": "finder-pr1/README.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/117f9ddf9822b57e8538b602be1334153af7c012/README.md",
+    "sha256": "f942bd0d50d9d1377022cb046f7ee621df3eaedbfaf4c6858efc8582fc1bef14"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "LLT-132-Consumo-da-fila",
+    "commit": "117f9ddf9822b57e8538b602be1334153af7c012",
+    "arquivo": "go.mod",
+    "copia": "finder-pr1/go.mod.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/117f9ddf9822b57e8538b602be1334153af7c012/go.mod",
+    "sha256": "7cbbef921e58885667b2a12414aaed3416bd51a12fc83aede2498bf516ff5593"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "LLT-132-Consumo-da-fila",
+    "commit": "117f9ddf9822b57e8538b602be1334153af7c012",
+    "arquivo": "cmd/finder/main.go",
+    "copia": "finder-pr1/cmd/finder/main.go.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/117f9ddf9822b57e8538b602be1334153af7c012/cmd/finder/main.go",
+    "sha256": "bc5f38f87a6031a72fe190c09669a862b7a34074c74d43248c37655adfe819a1"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "LLT-132-Consumo-da-fila",
+    "commit": "117f9ddf9822b57e8538b602be1334153af7c012",
+    "arquivo": "internal/application/consumir.go",
+    "copia": "finder-pr1/internal/application/consumir.go.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/117f9ddf9822b57e8538b602be1334153af7c012/internal/application/consumir.go",
+    "sha256": "4bc86bfd40f54045b047b0c78179caa2e4a2380cca2b86bb42c0e7c7fe0b2ce6"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "LLT-132-Consumo-da-fila",
+    "commit": "117f9ddf9822b57e8538b602be1334153af7c012",
+    "arquivo": "internal/config/config.go",
+    "copia": "finder-pr1/internal/config/config.go.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/117f9ddf9822b57e8538b602be1334153af7c012/internal/config/config.go",
+    "sha256": "f46a5525dcc9eee428429122aaaaf277ff528b018a3b5046a75150e9918c8ef7"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "LLT-132-Consumo-da-fila",
+    "commit": "117f9ddf9822b57e8538b602be1334153af7c012",
+    "arquivo": "specs/001-consumir-fila-redis/quickstart.md",
+    "copia": "finder-pr1/specs/001-consumir-fila-redis/quickstart.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/117f9ddf9822b57e8538b602be1334153af7c012/specs/001-consumir-fila-redis/quickstart.md",
+    "sha256": "8344074179a8c1430a9f9dcdd791b106de54125057a264a8e51b7410ee1125e8"
+  },
+  {
+    "repositorio": "lhamalog-finder",
+    "branch": "LLT-132-Consumo-da-fila",
+    "commit": "117f9ddf9822b57e8538b602be1334153af7c012",
+    "arquivo": "specs/001-consumir-fila-redis/spec.md",
+    "copia": "finder-pr1/specs/001-consumir-fila-redis/spec.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-finder/blob/117f9ddf9822b57e8538b602be1334153af7c012/specs/001-consumir-fila-redis/spec.md",
+    "sha256": "603e884d17ece8080a178b73cc4eef6c07c3909cf12378e5969b39992634e3b7"
+  },
+  {
+    "repositorio": "lhamalog-web",
+    "branch": "task/LLT-236-estrutura-de-pastas",
+    "commit": "519909ad401da9c450ea85c6e88ec7979b246ffc",
+    "arquivo": "README.md",
+    "copia": "web-pr1/README.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-web/blob/519909ad401da9c450ea85c6e88ec7979b246ffc/README.md",
+    "sha256": "3bc773bcd84335567f9046b4c409dd3ec143c0e117a968c343e1b8d8bed657fa"
+  },
+  {
+    "repositorio": "lhamalog-web",
+    "branch": "task/LLT-236-estrutura-de-pastas",
+    "commit": "519909ad401da9c450ea85c6e88ec7979b246ffc",
+    "arquivo": "package.json",
+    "copia": "web-pr1/package.json.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-web/blob/519909ad401da9c450ea85c6e88ec7979b246ffc/package.json",
+    "sha256": "165661623f5793b32270ca711e3c1f5b98a91c4494178e5d55ced0a649808cf6"
+  },
+  {
+    "repositorio": "lhamalog-web",
+    "branch": "task/LLT-236-estrutura-de-pastas",
+    "commit": "519909ad401da9c450ea85c6e88ec7979b246ffc",
+    "arquivo": "src/app/App.tsx",
+    "copia": "web-pr1/src/app/App.tsx.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-web/blob/519909ad401da9c450ea85c6e88ec7979b246ffc/src/app/App.tsx",
+    "sha256": "ff18c6bcbe3de52ddd935059216964ca299aaa6ee89b2a01cfade38a632b3a91"
+  },
+  {
+    "repositorio": "lhamalog-web",
+    "branch": "task/LLT-236-estrutura-de-pastas",
+    "commit": "519909ad401da9c450ea85c6e88ec7979b246ffc",
+    "arquivo": "docs/planejamento-componentes.md",
+    "copia": "web-pr1/docs/planejamento-componentes.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-web/blob/519909ad401da9c450ea85c6e88ec7979b246ffc/docs/planejamento-componentes.md",
+    "sha256": "92983f97eaf0b219ff5e495114b6547129de04a4202b4ed47dbcdb040b24ad5d"
+  },
+  {
+    "repositorio": "lhamalog-web",
+    "branch": "task/LLT-236-estrutura-de-pastas",
+    "commit": "519909ad401da9c450ea85c6e88ec7979b246ffc",
+    "arquivo": ".specify/memory/constitution.md",
+    "copia": "web-pr1/.specify/memory/constitution.md.txt",
+    "fonte": "https://github.com/LhamaLog/lhamalog-web/blob/519909ad401da9c450ea85c6e88ec7979b246ffc/.specify/memory/constitution.md",
+    "sha256": "ce7549540fa45543cca797a150201d868e64495fdff39dc38246fb17bd4024b3"
+  }
+]

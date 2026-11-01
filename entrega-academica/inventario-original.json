@@ -1,0 +1,1829 @@
+{
+  "data": "2026-11-01",
+  "arquivos": [
+    {
+      "path": ".gitattributes",
+      "size": 66,
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Desing.docx",
+      "size": 6857,
+      "sha256": "008da7f2fc2572ff62aff25a8ca9698131bdf0d997dc6784d52de98eefe770aa",
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/1a-cards-duas-colunas.png",
+      "size": 373447,
+      "sha256": "652357bb9c5481569d9d26970169847554989cd7aa9fd57d9480de46d18ebd46",
+      "dimensions": [
+        2362,
+        1854
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/1b-comparativo-denso.png",
+      "size": 288666,
+      "sha256": "17e60a395c52bdaef347e6a1db0a43d6744f463675752a4fabf8ee23ac7ff260",
+      "dimensions": [
+        2362,
+        1484
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/1c-log-stream.png",
+      "size": 318804,
+      "sha256": "cda62c48329b8d7fad3f10030f5d2b591821a745a22add67bd0934ca3eebe45d",
+      "dimensions": [
+        2362,
+        1314
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/Dashboard web DataLog.png",
+      "size": 408968,
+      "sha256": "d44e11960923224e00328e3e29b3a3e9c50f826e620d8f2a737b452eaede645c",
+      "dimensions": [
+        1051,
+        471
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/Dashboard web Grafana.png",
+      "size": 231206,
+      "sha256": "fbb85f7d866e58ac28608565d1d35b1d0119cb9768a206c286cbeb56f13a04df",
+      "dimensions": [
+        1103,
+        616
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/erros_SG.jpg",
+      "size": 94367,
+      "sha256": "f052be3651086397c9103b6c847caf5b63c0fec4a836cc3708ec4f53a3007714",
+      "dimensions": [
+        1265,
+        641
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/Gerenciador Gráficos.png",
+      "size": 49073,
+      "sha256": "cebc16fb1bce82466161ad7b3c888559b4397374439bfefeadc18dcb08bf2af0",
+      "dimensions": [
+        1134,
+        637
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/Gerenciador.png",
+      "size": 64971,
+      "sha256": "c8073e5efce954988f45b51af354b5e6d0f3d62b8fa49167985fc061b54e6073",
+      "dimensions": [
+        1135,
+        634
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/New Relic relatorios_logs.png",
+      "size": 61944,
+      "sha256": "810ead460794b503f26b199dbe49322cc4ed77a7bb4bf2cb8416f7e60ca07513",
+      "dimensions": [
+        1352,
+        620
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Ideias-Inspiração 🚀/New Relic relatorios_logs.png 2.png",
+      "size": 38763,
+      "sha256": "6fd7036af245afb42a844f1922d2dbe378d9e557f196c9d5ed1f2bc1a30d9f3e",
+      "dimensions": [
+        1357,
+        512
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Logos/Log lhamaLog base LhamaLog.png",
+      "size": 807268,
+      "sha256": "de959565db61eef56ed540d4ec3190c48be8f6d5df50428fb81b3f2bac430567",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Logos/Log lhamaLog base LhmLog.png",
+      "size": 978229,
+      "sha256": "b4815199879b78ccccd87fdf32f608eab9ed3481ad9403cf5541d4698da5c713",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Logos/Log lhamaLog base LmaLog.png",
+      "size": 806859,
+      "sha256": "1e9650697dd83de9c0491d7f2a9ded55ff06a6453073fc048a20135e07d14bba",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Logos/Log lhamaLog Logo.png",
+      "size": 862120,
+      "sha256": "dfd4ccdb36af6a863428f6118ed8d54beab1530b61cd21620b7e445adcd46947",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/paleta-de-cores.jpg",
+      "size": 44934,
+      "sha256": "d34463e9c0f4612ff8ef11a403391e5d26cc164f17e6711bff03692fe24d4293",
+      "dimensions": [
+        1066,
+        1600
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Configuração empresa/Configuração empresa - Contato.png",
+      "size": 1305297,
+      "sha256": "31af47ff31b28cea68d98b131d60c87aa9c703653c312d97513a85541154bb22",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Configuração empresa/Configuração empresa - documentos - Não definido necessidade.png",
+      "size": 1595969,
+      "sha256": "5ed2adb197d9b2a388a05c3d470ce985a79d53c910577a19afd711ca8314762c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Configuração empresa/editar_gestor.png",
+      "size": 1315711,
+      "sha256": "83872119bad5f84a121c9fa8a5ef61f262c811a5d796b895e020cb4e312c75b4",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Configuração empresa/gestores.png",
+      "size": 1379548,
+      "sha256": "f1e812bcc8b0235065cbe80b8812a45a5b439530180027dc197c8ff827551c0d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Configuração Produto/CADASTRAR PRODUTO - CONTEXTO IA.png",
+      "size": 1652426,
+      "sha256": "b5d58a108210dc6acdfbc9226eaffdf8601af3d92b9cea79066b9e843c61e90e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Configuração Produto/Configuração produto - Contexto.png",
+      "size": 1168390,
+      "sha256": "8f069e9d5edeea1e7042df93149cdae06510bec8fba1583ea9876a5278c4ef5c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Configuração Produto/Configuração produto - Integração.png",
+      "size": 1276319,
+      "sha256": "50e0b862e30abc71bef5151a4736368eb5952fc7b5b3b0b29993fab9dea3d399",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Configuração Produto/PRODUTOS.png",
+      "size": 1403891,
+      "sha256": "dbdf3f645df64198bd8bf1c4054542b11b2c000b60ef264420bbc4ca33787031",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Configuração Produto/Varredura Agendada.png",
+      "size": 1243788,
+      "sha256": "9929411170806e41058b040dd2778b9bbacd5af6472e67c81e589c83e8f61342",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Dashboard Mobile/Extra/0_telas_mobile.txt",
+      "size": 45,
+      "sha256": "6b603e72496dec8360123587c743e4cbc58d246a1e9f51a2ef3f9828e6453208",
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Dashboard Mobile/Extra/Vinicius-1_dashboard_html.html",
+      "size": 11260,
+      "sha256": "9c8fbc0b0a56caf60d209d24eadbe4b17830f3810e216258c5e0bc9834a9dff2",
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Dashboard Mobile/Extra/Vinicius-2_dashboard_Claro_html.html",
+      "size": 24596,
+      "sha256": "56530fffd80d27c0d4b52d20d4ad017b58080a16b2a388d8fe8a41ab67d05100",
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Dashboard Mobile/Extra/Vinicius-3_dashboard_Dark_html.html",
+      "size": 24703,
+      "sha256": "f091ec5b3df1ad95f75e5769454ae80229914de76af4b35d1b82213518ff4a07",
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Dashboard Mobile/frutiger mobile.png",
+      "size": 1965703,
+      "sha256": "fc3e35119c7ec4aec32de8d6e2441b209f61969464d25394d907aa4ea9c0913d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Dashboard Mobile/Vinicius-1_dashboard_png.png",
+      "size": 61124,
+      "sha256": "969f3bca4b1a31e0845e0cfe64393133ae46fb224dbf0de360d7e04f3e4926c7",
+      "dimensions": [
+        278,
+        581
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Dashboard Mobile/Vinicius-2_dashboard_Claro_png.png",
+      "size": 30677,
+      "sha256": "b5e9bb0f3f25daa33f37e8012b9bd565143ef10cd8bd6ef8691acb8af3fb2d46",
+      "dimensions": [
+        305,
+        590
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Dashboard Mobile/Vinicius-3_dashboard_Dark_png.png",
+      "size": 30229,
+      "sha256": "cead32b8fc688ed5bd271ae94a9737ae538edeaad95aca0809cf7633bf5f178a",
+      "dimensions": [
+        299,
+        587
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Dashboard Mobile/Vinicius-4_opentelemetry_claude_png.png",
+      "size": 99637,
+      "sha256": "34edf0cfa1d0c7643e4694eb630393edd6667cd63f9707b79ebe95a20de2a656",
+      "dimensions": [
+        414,
+        834
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/01_Autenticacao/MOBILE_Login.png",
+      "size": 1204388,
+      "sha256": "17a6098ba3af352f362ff40f500257974a74454b2023ddc1f1320db26523b057",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/01_Autenticacao/MOBILE_Verificacao_2FA.png",
+      "size": 1145049,
+      "sha256": "c86d8f576d912ca736481f1807e1d3f08c0a3290856a7a9ba28d26991ede3b02",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/02_Dashboards/MOBILE_Dashboard_Empresarial.png",
+      "size": 84257,
+      "sha256": "e940dedeab724319e899c337958dbb95d1eca1614b4a7b2cdeac11d3a052ba14",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/02_Dashboards/MOBILE_Dashboard_Visao_Geral.png",
+      "size": 1287282,
+      "sha256": "f3ec40444be35be0eddb62b63577262a41c0fe9b59a5abf2df30b52c96cfb713",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Alertas.png",
+      "size": 1243586,
+      "sha256": "27bf1159784ff2f0cded3db79096475733d3a8e4bbb1f1f35137fa8a71d33e20",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Incidentes.png",
+      "size": 1262271,
+      "sha256": "1381d32bc9ab3c5ce202fa120134aa7faa45409562e743b7eeab8006f93e098f",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Logs.png",
+      "size": 1277741,
+      "sha256": "c1923d4ff901b964b0be8b73a4146a7e0fc81f37a96337b567a1d03d14c3e2da",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Metricas.png",
+      "size": 1323672,
+      "sha256": "abfbf055fecab01cb7e1bec6a5f58a2c3628833f89f1ec9de1a5d22ee5352a36",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Monitoramento.png",
+      "size": 1361046,
+      "sha256": "439c35df6f41890c388eab61522f7cf96a6fa69f8a10dd88ef6161f69c6f7ee8",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Ocorrencias.png",
+      "size": 1370097,
+      "sha256": "90af92147ccdba377ae5509c0150cd0baf96909ea69716524177418904d8ebc6",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Ocorrencias_Detalhe.png",
+      "size": 98753,
+      "sha256": "7cc015d1ac55568da23b618c7bf7f90d7646189d71a80f6d799bf3cbcddcd928",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Ocorrencias_Empresariais.png",
+      "size": 89863,
+      "sha256": "6943c9fc3c5db46978099315f0ab340b3cd96a21a17ff87379511c695f5baec9",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Ocorrencias_Sugestao_IA.png",
+      "size": 99834,
+      "sha256": "d2b100e5b92344b2085e245065df01dea0d40291ec88098c4680a1b58556a4db",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Rastreamentos.png",
+      "size": 1425364,
+      "sha256": "fb5dec84455dbfac9d2b07432f7fed8a8aa421445b68abf4fcbd0d7a989190c7",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/03_Monitoramento_Observabilidade/MOBILE_Servicos.png",
+      "size": 1217280,
+      "sha256": "91784052a7992590dd8f7ddb4f9bc62286c4ed9660faaf3b5f2d045cca64b568",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/04_Operacoes_Produtos_Arquivos/MOBILE_Arquivos_Detalhe_Processamento.png",
+      "size": 91295,
+      "sha256": "90c6cafe2b89fc3c7e0245ae9fae66ff722a094b0a1a972db6970784c78ecb7a",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/04_Operacoes_Produtos_Arquivos/MOBILE_Arquivos_Importar.png",
+      "size": 78384,
+      "sha256": "9075ad6fb14707f58cd39bfcab7dd9fcb36bc3258338f16f82ac754e80395756",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/04_Operacoes_Produtos_Arquivos/MOBILE_Arquivos_Processados.png",
+      "size": 94031,
+      "sha256": "0628dc7a8bd8cb1a60fbdc524d117ba0de1b5231742df273290ea6134badcc29",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/04_Operacoes_Produtos_Arquivos/MOBILE_Produto_Contexto.png",
+      "size": 87107,
+      "sha256": "35faf9aa70d0cfb0461893bf48d83299594cdec2a5b48e17af50e7919a0072fd",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/04_Operacoes_Produtos_Arquivos/MOBILE_Projetos.png",
+      "size": 1194422,
+      "sha256": "c27aa5f6df713992ec5ff373a62d74a0819133cdde0289edd11cd189ee85efcb",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/04_Operacoes_Produtos_Arquivos/MOBILE_Varredura_Agendamento.png",
+      "size": 82408,
+      "sha256": "91159b417d8792eac5e5569f007ec824ff85e229f6f3fd69d9617ecbb56f0a89",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/05_Analise_Investigacoes_Relatorios/MOBILE_Investigacoes.png",
+      "size": 1317254,
+      "sha256": "cb1720517dbe27682487abdf36038d077b7aabcfc2d7d955e154dea83b778b1f",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/05_Analise_Investigacoes_Relatorios/MOBILE_Relatorios.png",
+      "size": 1226345,
+      "sha256": "bc649a27394986b1cf01d9f6e97f4b7b642ef293c056744a58ee6989b96db552",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/06_Integracoes/MOBILE_Integracoes.png",
+      "size": 87132,
+      "sha256": "21eee43725753fb391781137072c79799b626b1541b98c22402ba78d684908c1",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/06_Integracoes/MOBILE_Integracoes_SDK_Executavel.png",
+      "size": 91089,
+      "sha256": "9b8adcb2058d844e67fe00781a4a6f27927d941d6bdb46c22f2ce946af00ef8f",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/06_Integracoes/MOBILE_Integracoes_Tokens.png",
+      "size": 89229,
+      "sha256": "f96e6b5aefac1bbc93a851fbc6c2bd86630b8fc99d636d3039988fe8f6ba23fc",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/07_Notificacoes/MOBILE_Notificacoes.png",
+      "size": 93151,
+      "sha256": "d573d830f65679511778d014e0ffc4b3bb0f5718dfa02d4e5a5c6ad74edede81",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/07_Notificacoes/MOBILE_Notificacoes_Preferencias.png",
+      "size": 70054,
+      "sha256": "38819945b975e0337c27628b4220440988a822f358bd25901b94bf724f3491b7",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Acesso_Gestores_Produtos.png",
+      "size": 69059,
+      "sha256": "0c7c58f383a46be747cdbe4508239a85c09ea0eecdb7cc3ef104e04777655863",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Auditoria.png",
+      "size": 1241761,
+      "sha256": "6cf4aa23550e1aac5e30dc5d10f3bcd5273b6aacf8b539f567b7cd88f16112fc",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Configuracoes.png",
+      "size": 1296255,
+      "sha256": "11bafcf03f1aafbfc66d127cb28bc6c820376c5775400ab805ba75c188f0a271",
+      "dimensions": [
+        863,
+        1822
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Empresa_Contexto.png",
+      "size": 85537,
+      "sha256": "8c10b7e621981e5d1140a5716b3da925b02bc4887fa53a1ab77d254d575ddb22",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Equipes.png",
+      "size": 1204006,
+      "sha256": "4a18d1efa0ff62393492a9137faef2177b0b552fad252a5c041dfa50f71f81e7",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Perfil_Usuario.png",
+      "size": 1143174,
+      "sha256": "1f057665f9464d5519bb8c2a8921f7858eb85539ccc81ee965f3148106b4b1a4",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Permissoes.png",
+      "size": 1171014,
+      "sha256": "717d3d48a550836779d194e28553ec1fe28a1764383cf4670e99fd7e443ff51e",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Retencao_Dados.png",
+      "size": 72804,
+      "sha256": "dbed1458f76d73a19672f4ce40bac5aa291d4d9a7d7fb3f1ded0d01cbb6ba2ff",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Seguranca_2FA.png",
+      "size": 84825,
+      "sha256": "7d51394eb0eebe794675dfffdff3534deda1aed219a984d20cb1959a3987a75c",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/08_Administracao/MOBILE_Administracao_Usuarios.png",
+      "size": 1206149,
+      "sha256": "961edfc581be4e9f598eca4b680b094465fec3433e5f520eda7afc4624f44516",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/09_Assinatura_Faturamento/MOBILE_Assinatura_Gerenciar.png",
+      "size": 75789,
+      "sha256": "c0140a2c90789fd15710904d2f6aa5910882665e837c912210b51572de7b3f92",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/09_Assinatura_Faturamento/MOBILE_Assinatura_Planos.png",
+      "size": 79461,
+      "sha256": "74b6e41f9560371c5ab892bf5aad56eb50a47757771128a878e46d4313b30888",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/09_Assinatura_Faturamento/MOBILE_Assinatura_Reembolso.png",
+      "size": 76625,
+      "sha256": "30145383b596fe1c945631fff1cba6cbab5f7020da64b679ae9ddcd72e9e5ae4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_MOBILE_Organizado_v2 - André/09_Assinatura_Faturamento/MOBILE_Faturamento.png",
+      "size": 1163041,
+      "sha256": "109456b171a8e2295dc8e97b4feb6c53f7ff0d09443b39ef05495b0796833435",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/02_Dashboards/WEB_Dashboard_Empresarial.png",
+      "size": 85297,
+      "sha256": "09f067c679810020dd3227cbe5ca7e9fae9a59399a7c4290c588bff61aa9be48",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/02_Dashboards/WEB_Dashboard_Visao_Geral.png",
+      "size": 2211840,
+      "sha256": "17934406d26ce23d8eb90937d93596ef0c7db8ae59b7900d32c46de05493f626",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/03_Monitoramento_Observabilidade/WEB_Incidentes.png",
+      "size": 2253205,
+      "sha256": "66532fe1c874adf8a5c974e1d64412f08ccb1fe315d91715049ade9c4a40d9d7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/03_Monitoramento_Observabilidade/WEB_Ocorrencias_Detalhe.png",
+      "size": 87421,
+      "sha256": "aa022b273598915d586ddbdaeb3fab92b133fffcaeb9bac64ba5fefe012cf5bd",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/03_Monitoramento_Observabilidade/WEB_Ocorrencias_Empresariais.png",
+      "size": 77761,
+      "sha256": "3a6a58d4d0a9f5add1489e5ad3387b008a5898ef52444357aece9d2ff20c6617",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/03_Monitoramento_Observabilidade/WEB_Ocorrencias_Sugestao_IA.png",
+      "size": 93975,
+      "sha256": "6cc9251987ccf2c6bf316a2c66fb805aba283ba774c903360d389b0e8180ca44",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/03_Monitoramento_Observabilidade/WEB_Rastreamentos.png",
+      "size": 2406385,
+      "sha256": "70c2144e54c1b76bea132346fcdb605788c10d152a5c11760d2d80b15a0800a1",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/04_Operacoes_Produtos_Arquivos/WEB_Arquivos_Detalhe_Processamento.png",
+      "size": 96297,
+      "sha256": "830aaa9f37d4ba47820124415dc8c420e9bc100001414979170a672f7ad7069b",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/04_Operacoes_Produtos_Arquivos/WEB_Arquivos_Importar.png",
+      "size": 80060,
+      "sha256": "41c2e8c429c872dd4bb290d2e9959c7e64543d5f432c9da9232dd2e73a7eed41",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/04_Operacoes_Produtos_Arquivos/WEB_Arquivos_Processados.png",
+      "size": 79213,
+      "sha256": "b1c5cecb78eb7bca2dc31b8b8b912142523e883189ea19298d5fc045a5f51386",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/04_Operacoes_Produtos_Arquivos/WEB_Produto_Contexto.png",
+      "size": 84294,
+      "sha256": "35a7d452c06ba46953b7fa6c4b904d336f2aaec295b6ad645c4d24918c8f2ebc",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/04_Operacoes_Produtos_Arquivos/WEB_Varredura_Agendamento.png",
+      "size": 82348,
+      "sha256": "472fdd6e2e832a088e4e5ffa047f1fe61c90cd3d34e32cf5cadd230b6b0787e9",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/05_Analise_Investigacoes_Relatorios/WEB_Investigacoes.png",
+      "size": 2486473,
+      "sha256": "7fa5029fb331b084036967534c668ae63ef9d32533162eca4a11938296a3cd28",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/06_Integracoes/WEB_Integracoes.png",
+      "size": 2028608,
+      "sha256": "d1be1bab59e330492cf537774cbf6d8c030169c02c6f5bdb9406eab52e926948",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/06_Integracoes/WEB_Integracoes_SDK_Executavel.png",
+      "size": 83552,
+      "sha256": "e2e55f8463426111ac09788993d0ae441f3d1d52972d690a30980917c5252ac6",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/06_Integracoes/WEB_Integracoes_Tokens.png",
+      "size": 84714,
+      "sha256": "6795e2cde7b40a8cd56e3e3f81bad4822f29f1523d5ad0d019467b5918d4fff6",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/07_Notificacoes/WEB_Notificacoes.png",
+      "size": 75368,
+      "sha256": "20a739e5b742fad9960f5f49efdee1a520295613d6e95e3cdbd88717c94af14a",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/07_Notificacoes/WEB_Notificacoes_Preferencias.png",
+      "size": 73737,
+      "sha256": "ed9a661a13485c121583801222b3b8637a8cc818c8a16beb8a1b429aa22d4e61",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/08_Administracao/WEB_Administracao_Acesso_Gestores_Produtos.png",
+      "size": 71433,
+      "sha256": "4566cb7bbb60d14ce048e96d1c0108e03829f53e0752a23e0c681848bc7337d5",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/08_Administracao/WEB_Administracao_Auditoria.png",
+      "size": 2290552,
+      "sha256": "11c408d21d3699b78636b3fc6f55d24c1a2b374e98d34570fa5bc7fd17c7e728",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/08_Administracao/WEB_Administracao_Configuracoes.png",
+      "size": 2277509,
+      "sha256": "0a7e546bf594872233dc9a61037c84baa7cee32840b1958d0dcce52f0739b9ca",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/08_Administracao/WEB_Administracao_Empresa_Contexto.png",
+      "size": 76580,
+      "sha256": "df66f4a12802bb50a271c33a15e0926496c97ba04b2fb77b00700ab9d80a35f8",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/08_Administracao/WEB_Administracao_Equipes.png",
+      "size": 2275632,
+      "sha256": "6b61defab759be786ad51e00b88ba42d63c33ec49e3a1985d2b46fd317513bbf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/08_Administracao/WEB_Administracao_Permissoes.png",
+      "size": 2309546,
+      "sha256": "0c329d7ca3e348e971c5dcda489051ec954bea2d5036f3c41d65f93a9ddbb6e3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/08_Administracao/WEB_Administracao_Retencao_Dados.png",
+      "size": 79973,
+      "sha256": "3bc24d1102e7b100898b35e8d04c22fa91a81fdee9f6eaddae1a8d2b704253c9",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/08_Administracao/WEB_Administracao_Seguranca_2FA.png",
+      "size": 79278,
+      "sha256": "07b5f20efd861d1e328f47744df434baad5e48e4b024c2abd1fb9348eba2d9df",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/08_Administracao/WEB_Administracao_Usuarios.png",
+      "size": 2190758,
+      "sha256": "07a8f31d7c4e6e1aa362f3842c541d7c87637ae51ea9d2e073c4b5f61a7fe52b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/09_Assinatura_Faturamento/WEB_Assinatura_Gerenciar.png",
+      "size": 76819,
+      "sha256": "4f92bc2fa9b53af56e81b0652d56ee88ce329e7ff2f94d47bb0d85c2b8f14b11",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/09_Assinatura_Faturamento/WEB_Assinatura_Planos.png",
+      "size": 67724,
+      "sha256": "4b02df359bc5f36e43f91e3a08cf212e8ec5c9be7dfbd380d52d92a2c445aa66",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/09_Assinatura_Faturamento/WEB_Assinatura_Reembolso.png",
+      "size": 79805,
+      "sha256": "316c5c538993594daf3b01bd74dfb49e90ea2048a77fb1f32a4bd83c91b6f61f",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/09_Assinatura_Faturamento/WEB_Faturamento.png",
+      "size": 2153576,
+      "sha256": "0a86079d1d30924c4e4a65752416b5719cb8c165b63434c18a362ae57cac223e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/LhamaLog_WEB_Organizado - André/99_Variantes_Rascunhos/WEB_Integracoes_Variante_02.png",
+      "size": 2061214,
+      "sha256": "bd59311fd755e11b952bd9db71990a7f066823c2e2726c1a31fd65a6b69daf74",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Login Web/LOGIN.png",
+      "size": 1378383,
+      "sha256": "73a6295bc4ac742fa0816fe32509d62bf334f9fe5f12c16395e9fbe3da8dbad5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Login Web/TELA LOGIN - WEB.png",
+      "size": 1311293,
+      "sha256": "6ebe089696c006b60b18cc0ad50b391870d9c5d6e73d7c00e144c8c5c9ab1027",
+      "dimensions": [
+        1453,
+        1083
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Login Web/TELA LOGIN COM GOOGLE.png",
+      "size": 1353613,
+      "sha256": "1450872fb9b9a759fffc7a32493babdc3006384c8830abb3e757fb0582b1071f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Login Web/TELA VERIFICAÇÃO DE SEGURANÇA.png",
+      "size": 1461076,
+      "sha256": "0e8bdc0201588b2494e1176e378b049b6c59816c77e2d68b9285f0c332d662f7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Agendamento de Varredura.png",
+      "size": 1242940,
+      "sha256": "967c9107d226dfd284a5219917c5d9032bb353ebaf6b659bc86be2324b164661",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Arquivos Processados.png",
+      "size": 1277152,
+      "sha256": "d0616c2f3b2d2253100675f1e95ea4c67e283ee4f51e9362d64e5d0e879c9776",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Configuração de autenticação de dois fatores.png",
+      "size": 1319095,
+      "sha256": "b9547eb67419534f0fc3f87f17c155272575b979fbf5f1eaff4cec43798d4007",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Configuração de renteção de dados.png",
+      "size": 1305882,
+      "sha256": "1c4b22553b64c66993b492b081da3109784408fff94feaf5a58159e9dcf73d91",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Detalhe do Arquivo Processado.png",
+      "size": 1326719,
+      "sha256": "5c2ddf7abe4f27d4faa860241d5e079e29f63029336d01d9160b41cf5c349ea4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Detalhe e Contexto do Produto.png",
+      "size": 1219980,
+      "sha256": "782ac03db8a8bd0ac51a0a5738a466209254903fd88d1114a407b570c169ff9f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Gerenciadomento de usuários.png",
+      "size": 1494869,
+      "sha256": "0b0a9494c8ebba7f4e5590ecf239e983adfb92fe423e575a1bb1e4ec90eb9040",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Gerenciamento de Assinatura.png",
+      "size": 1283717,
+      "sha256": "f3d16661b95ef59084cc6ec500b41980749c5a7a56146d13c67888cf792d7a24",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Gerenciamento de Token.png",
+      "size": 1300134,
+      "sha256": "791fc80c89d9515fde187939d77418e1c20df06d38ada7ab07e32d7282ca957a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Importar Arquivo.png",
+      "size": 1360807,
+      "sha256": "c522f72caa77d901aee12dd14e3c1f6531eff45184c713bce5f51f9d8128f1f7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Integração - Refazer.png",
+      "size": 1374096,
+      "sha256": "bb77cb07f112027ef0024b0e46907492d473716340e61bde23d46bef6c53320e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Planos de Assinatura - Remover.png",
+      "size": 1309164,
+      "sha256": "89700bb0040295c258f02880f3220801c1fc60f50bff80f44113704093214588",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Solicitação de reembolso - Refazer.png",
+      "size": 1287115,
+      "sha256": "1708791177bea7df24d3416ac274d0a70564bf8c66932c841071386355be676a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/MELHOR VERSÃO WEB - André/Sugestão IA.png",
+      "size": 1501366,
+      "sha256": "938f1d1b817acba316052f9931572b1ead53562c5f0afb01552c4f778beb2c97",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Tela lista ocorrencia/Design base ocorrencias.png",
+      "size": 1577443,
+      "sha256": "0974f0c5d6cb29c81f5abd066c133336a42289c148cb23772dce2e2e88ec34f5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Tela lista ocorrencia/Design base v2.png",
+      "size": 1485656,
+      "sha256": "bd96ca99c43ad7156963141d255b993ee825d0bd7177cc78b043cac995c85d58",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Tela lista ocorrencia/payload detalhe ocorrencia - verificar necessidade.png",
+      "size": 1508246,
+      "sha256": "445e486259475f92a88ed19b1349ac542c9e3eded69a9dd427443c99e34ad5dc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Background.png",
+      "size": 1646787,
+      "sha256": "e3741aa138b51b0e96ea645d5cfc9c94c19e7764e36a4f2e4a688035fe8ddbdc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Empresa/Configuração de empresa.png",
+      "size": 1288466,
+      "sha256": "569226410c3047979b1ed13ff92355b5231608ed43d63a2dc93d76aba5248106",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Empresa/Configuração empresa - Contexto.png",
+      "size": 1629763,
+      "sha256": "20d3cf99a2f820b2c72fba41cdcb93a2e729ddea74455f3ca47bd1fd52bc9517",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Empresa/Configuração empresa - Endereço.png",
+      "size": 1622238,
+      "sha256": "b539068ec1f0c621a1875bb9fb280a96a081411b25039b2637ac8123fd5c2129",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Empresa/Configuração empresa - Propriedades.png",
+      "size": 1626940,
+      "sha256": "d6d0a65d02c9a6e20c6f7a06d5bfb0262154fd2466b7e0718cbc67fcfaf6f6c8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Login/Login Mobile.png",
+      "size": 1185299,
+      "sha256": "6b56e6c13aa038186546d365fd28d33d31b732bf2b89a8ff6008b931c15ecdf4",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Login/Pagina de login.png",
+      "size": 1520022,
+      "sha256": "1369478becc5567751e6840c7f2925ea94b87c7ebd4c520a8f595d29cf66a416",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Ocorrencia/Design base v2 - Com Logo.png",
+      "size": 1511597,
+      "sha256": "4ed06b0117521b87b5dd8c272b384b53b17469b25625aa821576964b4be515bf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Ocorrencia/Detalhe da Ocorrência.png",
+      "size": 1446929,
+      "sha256": "4a7e937595669c32fa96ea36457694c8e7bbb3bfc0ca8547239e96443fd2d493",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Ocorrencia/Detalhes da Ocorrencia de forma resumida.png",
+      "size": 1495443,
+      "sha256": "91528d3a2ebc244fdf0d4495da9048bffa50438ea7cc3d0beb4872eb77d10a1a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Ocorrencia/Detalhes da ocorrência avançada.png",
+      "size": 1494153,
+      "sha256": "ca11dd0459e27136b687fd9a9b31e58871ee40b42a5d378e6ec226fea1b2f32d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Ocorrencia/lhamalog-sugestao-ia-texto-unico.png",
+      "size": 1365714,
+      "sha256": "0286a0b1cd613e061a58e4139cebbae891d60392d21aa80ba4c6183718a62549",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Ocorrencia/Ocorrências Empresariais_.png",
+      "size": 1442808,
+      "sha256": "8e170dd2380717567c7fc30ae778e5fb65e8b083125faf5c5c871f14bd253a08",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Ocorrencia/Stack Trace Detalhe ocorrência.png",
+      "size": 1798701,
+      "sha256": "ed90354f2cf38a2b416c1c7e0a00ed6dccb83668233a86ed0dea8811849f09b2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Design/Telas/Telas Oficiais/Produtos/Configuração produto.png",
+      "size": 1453403,
+      "sha256": "e5b8b1bd6780c3f695008db5dac0b8e9c6fd38df6a782ff3811bac253392e9c9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_001] - Utilização do banco de dados.docx",
+      "size": 8065,
+      "sha256": "65531ecd0f5658ee84a5dde3574d1350c411053af4816e738bbb6e8f9c47e7ef",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_002] - Linguagem de programação.docx",
+      "size": 8029,
+      "sha256": "786119994aad4768c5e86214a9f3a2981737507dde3e957b681e6bbffc11c0fc",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_005] - Gatilho de Varredura.docx",
+      "size": 8164,
+      "sha256": "044b494c1069b9d93d0569401193e09e643b58e6bf867ad34c9a97a4d72e79bf",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_007] - Ordenação da fila pela Varredura.docx",
+      "size": 9413,
+      "sha256": "66e4495b556d45ec5b1970fcf2ef10523b374517c0fe0adbe219c13c5d03f4b9",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_010] - Disparo da Varredura.docx",
+      "size": 9051,
+      "sha256": "0ae0c45676a9fe9fe7bef7b0d70995157ed32dcf785bf830e223f17f0dad0dba",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_011] - Papel do Finder e montagem do contexto para a LLM.docx",
+      "size": 9404,
+      "sha256": "d995e98abe310e86fba429bfbcf63b00d8c617b709e42e51d5efc6df707172fb",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_012] - Taxonomia da classificação.docx",
+      "size": 8997,
+      "sha256": "051f9aa2cf86f5f636601af19d64ae376e5dd7df8b6dce85a04497082928fe5e",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_013] - Regra de recorrência.docx",
+      "size": 9169,
+      "sha256": "11554ee5e048e57f28217b624efbafd05e22680f39c9c0ae38e24452d58b7d1a",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_017] - Finder orquestra a análise do Arquivo e chama classificarAnalise().docx",
+      "size": 9026,
+      "sha256": "b6d4761ff3c81f17885a9722b180cfb05c461327d0c550488d8eeb966553cb1b",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_018] - GatewayLLM exclusivo do Finder.docx",
+      "size": 8800,
+      "sha256": "bb5c5bfa30a38b57b1a50b0d3de326e032e62a9e10ca5aca328d89c127de46a5",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_019] - Enum Tipo da classificação_ ERRO, WARNING e SPAM.docx",
+      "size": 8909,
+      "sha256": "462fe8a26be028e51c993adfd48b854e9f088543430f4bc505946283bb8d4a7b",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_022] - Integração do backend Java com a Clerk.docx",
+      "size": 10518,
+      "sha256": "c6a8db4ff3d28802a427acbfc922be5e75e369470235806cf6364025c3203c74",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_025] - Gestão de tokens internos e app móvel em standby.docx",
+      "size": 10587,
+      "sha256": "6d847949200a79716695bacaa605ecf50abcd923732ff78068bd6f146f65e3b1",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_029] - MongoDB confirmado e DER como artefato de restrição.docx",
+      "size": 9317,
+      "sha256": "81f9e93bff8da49c7e3c5f13324b6f7ec2a0081ce9e7aed1a5901aa62ad608f7",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_031] - Uso do benefício de estudante da Clerk (GitHub Student Developer Pack) no MVP.docx",
+      "size": 12694,
+      "sha256": "15a9aee0a88b9300ffbfdd73287979ff952c1fa19445fa82e6f5a6310430b045",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_033] - Criação do Tenant no webhook user.created.docx",
+      "size": 10075,
+      "sha256": "3fafefcc87b0222ce5153913a991d7793cebfa8ffc2b39db4138ebcbca47437f",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_042] - Coletor como porta única de entrada com seção paralela manual, proteção contra binário_prompt injection no backend e erro crítico.docx",
+      "size": 9449,
+      "sha256": "b87fa9fbb880fee51f14cc90b693fb632e7f00ca4409ed3554f65250be50ed16",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_044] - Upload manual_ Produto vindo do card e tratamento do nome_ID do Arquivo (Arquivo ganha nome).docx",
+      "size": 8871,
+      "sha256": "6ab8ee5c9f650692355a14c4a1d75a6240be9da003fbbd8343c6eb53ba7af7e2",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_045] - Upload manual_ vários arquivos numa requisição, agrupados em um único lote no fim da FilaOrdenada.docx",
+      "size": 8720,
+      "sha256": "b106627548957d6b16d2a2211b50b71ab64b0e3112b51b2a261777a058cd0b8f",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_048] - Upload manual_ bloqueio individual do arquivo reprovado na proteção, o resto do lote continua.docx",
+      "size": 8731,
+      "sha256": "9bcba4bf7552cda49b7ca5f133df9f410cdd652c813e98e53c5646da25741866",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_049] - Upload manual_ erro de leitura_parsing é crítico sem retry e DLQ reenvia ao fim da FilaOrdenada.docx",
+      "size": 8876,
+      "sha256": "331472e40422700daeb441df1dd956a5d1461abb80e547a3111b4849d68cbdd3",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_050] - Upload manual_ sem limite por requisição por enquanto, só 100 MB por arquivo.docx",
+      "size": 8467,
+      "sha256": "8cec95d758fee578d34c055e802c1093a69f47638dba96bdfce57945d8371a80",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_053] - Upload manual_ resposta 202 Accepted no aceite do POST _manual_upload.docx",
+      "size": 8453,
+      "sha256": "a632dc97e4738866e46603e488e49860d48f6aa1fe7203ce469efa35c06496b0",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_055] - Upload manual_ alertas sempre por lote (aceito, proteção, relatório final por arquivo).docx",
+      "size": 9077,
+      "sha256": "4f0efb3ae40aa25cb1d54d91e57ed8e90d4b4728d6c7b05053d933d0cb48f828",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_057] - Varredura por Produto_ uma FilaDesordenada por Produto e gatilho por tamanho opcional por cliente (padrão 500).docx",
+      "size": 8611,
+      "sha256": "8fd07e1b6d3053ca6063caebd3e09f9ab95a6035b9ce3a9a445c30b3f4d2204e",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_061] - Fim da Varredura pela API da Varredura_ o Finder avisa cada arquivo e a Varredura fecha sozinha.docx",
+      "size": 8795,
+      "sha256": "f59624bc12fd8fe1d89ebbd4f4d8a4840204c96d7adef7b009de9b341c1600f3",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_062] - Finder emite só AchadoAnalise e ResumoAnalise_ Ocorrências e gravidade pertencem ao Módulo Ocorrência.docx",
+      "size": 8885,
+      "sha256": "f8de7bb9fff435d4ea2eba60f7ee02d89f52f0a64dbae43bffe17984ddfc668e",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_064] - Mascaramento no validarSeguranca()_ emails substituídos, linhas com senha_token_secret removidas com marcador.docx",
+      "size": 8677,
+      "sha256": "e419a4869e2653f3ee6c23a25a10f29f65650292b416e8875b6d182ba6e7f9e8",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_065] - Idempotência por arquivoId + varreduraId e workers paralelos independentes no Finder.docx",
+      "size": 8831,
+      "sha256": "05f9ac1ee003a7a982225ae09998230bc303100c80d553716df5c2066806eb4a",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_066] - Spam não é armazenado nem vira Ocorrência_ só fica como contexto do erro_warning.docx",
+      "size": 8482,
+      "sha256": "a07b16e3b0f526646928e1ba3cc848e6bc63173c405b7bb17341b4bda7621122",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_068] - Sem trava por Produto_ workers consomem a fila do Produto em qualquer ordem e em paralelo.docx",
+      "size": 8558,
+      "sha256": "b92d14fe8cc7fbfda30c85c48df4830380b25762c62432af65649ea5d1b20f18",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_069] - Formato da chave lock por arquivo e execId V_M.docx",
+      "size": 8539,
+      "sha256": "af7a4553313a56e9c1e16e063adb2f267ffabc99e2303ae519210b25564d4b88",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_074] - BancoVetorial isolado por Produto.docx",
+      "size": 8326,
+      "sha256": "52fd34774d6bc3c1a0ce177c2c768408bb343ac4720fda239a3e3c83e3941423",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_077] - Timeout de 30 s sem retry e notificação única de falha da Sugestão automática.docx",
+      "size": 7929,
+      "sha256": "417e0619fc60d97070299cf6873e95b4b236570f6d34b607747fb390086ccda6",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_078] - Reserva de tokens da Sugestão_ fórmula, liquidação e expiração.docx",
+      "size": 7938,
+      "sha256": "4241cad9e1feb825685ab04026a6981cbacd16d61445649f4b8f504c5d52e1c7",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_079] - Mascaramento da Sugestão igual ao do Finder.docx",
+      "size": 7793,
+      "sha256": "c5174d27415f285948bb102e8e945a12b94f2a2f4c3f24d9673e56297a161ebb",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_085] - Saldo insuficiente na Sugestão manual_ recusa imediata no pedido.docx",
+      "size": 7841,
+      "sha256": "5ba37fb756fbf96ff39aed461719c6de1283a547dee03dbee811339df31c597d",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_087] - Contexto da Sugestão manual_ últimas 5 Sugestões da mesma Ocorrência.docx",
+      "size": 7697,
+      "sha256": "9f002aae08ff577db93922e197f3eef4c5ffcd91f82d416bb25ddf8b1147e1b7",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_090] - Sugestão com falha fica fora da lista da Ocorrência e não bloqueia o fechamento.docx",
+      "size": 7953,
+      "sha256": "3e84bc573f5e7d7a5a5fda8b19a992cae4d7a69aba1e8bc67d7353a8ef12c725",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_093] - Timeout de 30 s também na Sugestão manual.docx",
+      "size": 7648,
+      "sha256": "1753b43a7d76254939e3e7d23abb8afc4799b081a5c4892c8bc3baa9041e734a",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_094] - Retry da Sugestão manual_ 3 retentativas com espera crescente (corrige a ADR_084).docx",
+      "size": 7760,
+      "sha256": "ad49bbc20540bb9ef44ba7dc702c66158ff76e09e3c8f799455b7c87b22d7c91",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_095] - Aviso _aceita_ da Sugestão manual por WebSocket e histórico.docx",
+      "size": 7724,
+      "sha256": "5a34b0bafe8731574a38e18f0043e614863f2f5444e7abe92b1c9ca94789aad9",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_096] - Status AGUARDANDO_REVISAO da Sugestão (renomeia o PENDENTE da ADR_091).docx",
+      "size": 7879,
+      "sha256": "de6c078261047c55d12bd7e0a7f0fe131c538ccd62b0dd2f4006b0604a70f29c",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_098] - Nova reserva a cada retentativa com substituição atômica.docx",
+      "size": 7785,
+      "sha256": "e3cb3baa7ab35a6f360005f002c9d3ffe8e6d9b5b8cc708bf85eaa253f848b93",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_099] - Status do Arquivo_ PROCESSANDO, CONCLUIDO e FALHA.docx",
+      "size": 7685,
+      "sha256": "b6aaa05c5f049f66e072b04c824ba7867862245e95afae0b5bd5342f6ac5cb4b",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_101] - Ocorrências em três níveis (Produto, lote, arquivo).docx",
+      "size": 7753,
+      "sha256": "3669b13c293a44f4a51f2d388921e12613f63edb983119c3a859fda5a569103a",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_102] - Contadores do resumo a partir do ResumoAnalise.docx",
+      "size": 7703,
+      "sha256": "c4d22bee635e3f4a69959ac3fc925097fc1ae5ac8c497600be86202b97d29a0b",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_103] - Detalhe da falha e arquivo em processamento.docx",
+      "size": 7787,
+      "sha256": "52a2db8ca458d3760386ffac9bb70bcdc6396fe6622435f82c449e47d4c1573d",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_116] - Elasticsearch para logs e MongoDB como banco core.docx",
+      "size": 7766,
+      "sha256": "0fe53c38f47e2b1f464cef1cfaaba7a7be31be9bfc8a4bc19ddecda1c3e72a02",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_122] - Coleções do modelo multi-tenant.docx",
+      "size": 7937,
+      "sha256": "e03fd36a660e8f7e86015b24c1176831a199b4bc416d6ae27d986c6e3a81a522",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_124] - Downgrade altera só a Assinatura.docx",
+      "size": 7718,
+      "sha256": "3fa4f5b264bdd17cf065261ad9303d6fe6320a1ada1df0e1439776cd55a88e35",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_133] - Rotas internas de reprocessamento do EventoGateway (proposta).docx",
+      "size": 7781,
+      "sha256": "cf3075a1240a7f620c307f9c0e4844244bcf42084d783ca90a532b34d9a1c895",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_154]_ Remoção da classe TokenMetadata (complementa a ADR_111).docx",
+      "size": 217705,
+      "sha256": "ee1adcd4ea6260cd23335a9bc6df3b0844248a6617bfb1ba7399970a226ef6e1",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_160]_ Nome ResumoArquivo e ocorrenciaIds no resumo por Arquivo (complementa as ADR_035 e ADR_040).docx",
+      "size": 216872,
+      "sha256": "622ae405485125224bb50c5399abbf689829fac0c1ae84c3eb03da5249698a40",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/[ADR_166]_ Escopo dos extras no MVP_ relatórios PDF_Excel, varredura avançada e link externo da LLM ficam fora.docx",
+      "size": 9244,
+      "sha256": "6a0b2b854edf839036b66fc3bf0fe0005dadce2d6d7365d9144b129692c7b551",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/ADR_147.docx",
+      "size": 8293,
+      "sha256": "553bb027f9100f1118c5487f0791f96530ad79335f3c104678398989040c7451",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/Artefatos/IMG_20260924_221927951.jpg",
+      "size": 3048925,
+      "sha256": "5486064cc2aee12e32ab59b2e60661a02ec036a0653671e7d46f6c064e8e00ee",
+      "dimensions": [
+        4208,
+        2368
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Diagrama ADR/Artefatos/IMG_20260924_221929133.jpg",
+      "size": 3059874,
+      "sha256": "77b19769e02d6aad29dca77399eaddcea4d9dc71e3abad6b6fcff571144b789e",
+      "dimensions": [
+        4208,
+        2368
+      ],
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Front Web - Cobertura de testes/84 — Plano de teste de Ocorrências.docx",
+      "size": 43530,
+      "sha256": "1c3094087900e606455cffd1f8654020c5a4969f497332ae48d1d24e2a625cda",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/LGPD/RIPD - Relatório de Impacto à Proteção de Dados - Lhamalog.docx",
+      "size": 24160,
+      "sha256": "0325fc8cc70673428db2532eb337c376448e7b4ffae1018aae5fb67ec46e3cb3",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações/Plano de Monetização - versões/v3/Análise - Dash0 e Elven para startup de 10 GB_dia.docx",
+      "size": 20680,
+      "sha256": "1a50a629d77202107d52d87a76fa0b5594c34d15b77ed5a267bfcdfcf7944f7c",
+      "validation": "ok"
+    },
+    {
+      "path": "Documentações-20261101T105819Z-1-002.zip",
+      "size": 1407225386,
+      "sha256": "97ae41a6c08e3d90bcdfc522fff38da96ccdd796508dd27746e741ba519f43a0",
+      "validation": "ok"
+    },
+    {
+      "path": "LhamaLog casos de uso.xlsx",
+      "size": 1316530,
+      "sha256": "34f2d0fabf655f12ad1d8308eb3f80b67af97b6a4b87c7b78154000468ecfece",
+      "validation": "ok"
+    },
+    {
+      "path": "Modelo de Classes LhamaLog.xlsx",
+      "size": 20945375,
+      "sha256": "c7e48faae912e7ebe879c463542ec682ba92d80f73150b6a2990a5455863e16c",
+      "validation": "ok"
+    },
+    {
+      "path": "Figma/figma.svg",
+      "size": 25004543,
+      "sha256": "11f1d96fdbc52e6bd14d1c6e7698cf24caf86893a29d7c6f117d64141f76b0d2",
+      "validation": "XML válido; renderização PNG conferida"
+    }
+  ]
+}

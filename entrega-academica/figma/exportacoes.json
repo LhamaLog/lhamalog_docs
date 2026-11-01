@@ -1,0 +1,62 @@
+[
+  {
+    "arquivo": "completo-2-v02.png",
+    "pagina": "Completo 2",
+    "quadro": "v02",
+    "node_id": "765:6545",
+    "dimensoes": [
+      5120,
+      8066
+    ],
+    "url": "https://www.figma.com/design/e88SaMez3hQZ0nmmC3uEtm/LhamaLog?node-id=765-6545",
+    "data": "2026-11-01",
+    "formato": "PNG 1x",
+    "validacao": "Decodificação integral bem-sucedida",
+    "sha256": "221c526b168c637370cdf062e5e481db8ee796cc12d43f7bd9e044b2ecf66647"
+  },
+  {
+    "arquivo": "login.png",
+    "pagina": "Login",
+    "quadro": "Login",
+    "node_id": "41:3",
+    "dimensoes": [
+      1440,
+      900
+    ],
+    "url": "https://www.figma.com/design/e88SaMez3hQZ0nmmC3uEtm/LhamaLog?node-id=41-3",
+    "data": "2026-11-01",
+    "formato": "PNG 1x",
+    "validacao": "Decodificação integral bem-sucedida",
+    "sha256": "a758e9b820d686b258c63b969d260e00fe5d04e14f0496362a9c06af60624cf3"
+  },
+  {
+    "arquivo": "verificacao-seguranca.png",
+    "pagina": "Login",
+    "quadro": "Verificação de segurança",
+    "node_id": "72:2",
+    "dimensoes": [
+      1440,
+      900
+    ],
+    "url": "https://www.figma.com/design/e88SaMez3hQZ0nmmC3uEtm/LhamaLog?node-id=72-2",
+    "data": "2026-11-01",
+    "formato": "PNG 1x",
+    "validacao": "Decodificação integral bem-sucedida",
+    "sha256": "53857905a88602a0cc2c295439d584f3e59a79297f43f5bb435777e3974f31ca"
+  },
+  {
+    "arquivo": "produtos-lista-v2.png",
+    "pagina": "Produto",
+    "quadro": "008_svg_lista_produtos_v2",
+    "node_id": "179:494",
+    "dimensoes": [
+      1536,
+      1024
+    ],
+    "url": "https://www.figma.com/design/e88SaMez3hQZ0nmmC3uEtm/LhamaLog?node-id=179-494",
+    "data": "2026-11-01",
+    "formato": "PNG 1x",
+    "validacao": "Decodificação integral bem-sucedida",
+    "sha256": "b65de55136ad1d4f025083e41542315479ec5113bfe7a67fbc1018dbb2cf2076"
+  }
+]

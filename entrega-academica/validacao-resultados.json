@@ -1,0 +1,51 @@
+{
+  "data": "2026-11-01",
+  "originais_conferidos": 210,
+  "originais_alterados": [],
+  "referencias_locais_conferidas": 334,
+  "links_quebrados": [],
+  "divergencias_de_maiusculas": [],
+  "copias_repositorios": 24,
+  "copias_divergentes": [],
+  "pngs_exportados": [
+    {
+      "arquivo": "completo-2-v02.png",
+      "dimensoes": [
+        5120,
+        8066
+      ]
+    },
+    {
+      "arquivo": "final-visao-geral.png",
+      "dimensoes": [
+        1800,
+        2836
+      ]
+    },
+    {
+      "arquivo": "login.png",
+      "dimensoes": [
+        1440,
+        900
+      ]
+    },
+    {
+      "arquivo": "produtos-lista-v2.png",
+      "dimensoes": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "arquivo": "verificacao-seguranca.png",
+      "dimensoes": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "svg_xml": "valido",
+  "video": "fora de escopo por orientação do usuário",
+  "execucao_testes_aplicacao": "não realizada",
+  "commit_push_publicacao": "não realizados"
+}
