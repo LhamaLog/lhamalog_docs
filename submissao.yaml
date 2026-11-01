@@ -2,7 +2,7 @@ equipe: LhamaLog
 turma: B
 artefatos:
   repositorio-1:
-    link: https://github.com/Vinicius-Ferrarini/lhamalog_docs
+    link: https://github.com/LhamaLog/lhamalog_docs
     descricao: |
       Documentação acadêmica do LhamaLog: especificações de casos de uso,
       modelo de classes, ADRs disponíveis e protótipo final exportado do Figma.
