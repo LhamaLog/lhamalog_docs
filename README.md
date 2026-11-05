@@ -33,3 +33,9 @@ O Collector tem base Spring Boot na `main` e ingestão OTLP implementada na PR 2
 - [Figma original](https://www.figma.com/design/e88SaMez3hQZ0nmmC3uEtm/LhamaLog?node-id=765-1426).
 
 A tarefa informa o último commit válido até **02/11/2026 às 09:00**; o fuso não está explicitado no texto consultado. A submissão deve ser feita pelo representante, com equipe, turma e repositórios dos artefatos. Os arquivos locais complementam os links; a etapa de versionamento e envio continua sob responsabilidade da equipe.
+
+## Desenvolvimento de Empresa e Produtos
+
+[Plano P00–P06 e andamento](planejamento/empresa-produtos.md) · [Ambiente local integrado](planejamento/ambiente-local.md). O estado acima descreve a entrega acadêmica anterior; o plano registra a implementação local atual, ainda sem publicação.
+
+[Progresso atual e ponto de retomada](planejamento/progresso-empresa-produtos.md)
